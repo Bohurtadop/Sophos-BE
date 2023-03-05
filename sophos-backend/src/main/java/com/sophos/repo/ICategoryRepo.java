@@ -1,0 +1,9 @@
+package com.sophos.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.sophos.model.Category;
+
+public interface ICategoryRepo extends JpaRepository<Category, Integer> {
+
+}
